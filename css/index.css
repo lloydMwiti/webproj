@@ -175,21 +175,30 @@ nav{
 .page{
     margin-top: 2rem;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 1rem 1.5rem .2rem 1.5rem;
 }
 .pagetitle{
+    margin-bottom: .4rem;
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3.4rem;
     line-height: 2.6rem;
 }
 .pagedescription{
+    margin-bottom: 1rem;
     color: var(--text-color);
     width: 70vw;
-    margin-right: 15vw;
+    text-align: center;
 }
 .bodycontent{
     width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .alert{
     width: 100%;
@@ -209,7 +218,8 @@ nav{
     padding: 0 1.6rem ;
     display: flex;
     align-items: center;
-    justify-content: start;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .categorycard{
     position: relative;
@@ -243,7 +253,7 @@ nav{
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.541);
     border-radius: .4rem;
     padding: .2rem  ;
 }
@@ -267,7 +277,7 @@ nav{
     color: white;
     font-weight: lighter;
     border-radius: .3rem;
-    background-color: rgba(32, 32, 32, 0.993);
+    background-color: var(--off-white-blue);
     margin-bottom:0rem ;
     transition: .3s ease-in-out;
     margin-top: 0rem;
@@ -278,6 +288,37 @@ nav{
     margin-bottom:.2rem ;
     margin-top: .2rem;
 }
-.animline{
+.tempslide{
+    width:100%;
+    padding:1rem 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tempcard{
+    width: 24%;
+    margin: .2rem;
+
+}
+.tempimg{
+    width: 100%;
+    height: 13vw;
+    object-fit: cover;
+}
+.tempobject{
+    width: 100%;
+}
+.tempholder{
+    width: 100%;
+}
+.tempholder>h3{
+    font-weight: normal;
+}
+.tempholder>p{
+    font-size: .8rem;
+}
+.tempcheck{
+
+}
+.littler{
 
 }
