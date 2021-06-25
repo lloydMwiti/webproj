@@ -173,12 +173,23 @@ nav{
     justify-content: center;
 }
 .page{
+    color: white;
     margin-top: 2rem;
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 1rem 1.5rem .2rem 1.5rem;
+    padding: .1rem 15%;
+}
+.page>.pagedescription{
+    color: #e9e9e9;
+    padding: 0 .3rem;
+}
+.salespage{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: .1rem 10%;
 }
 .pagetitle{
     margin-bottom: .4rem;
@@ -191,6 +202,12 @@ nav{
     margin-bottom: 1rem;
     color: var(--text-color);
     width: 70vw;
+    
+}
+.pgdescription{
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    width: 70vw;
     text-align: center;
 }
 .bodycontent{
@@ -199,6 +216,7 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 1rem 0;
 }
 .alert{
     width: 100%;
@@ -317,8 +335,61 @@ nav{
     font-size: .8rem;
 }
 .tempcheck{
-
+    padding: .3rem .7rem;
+    border-radius: .2rem;
 }
-.littler{
-
+.pagecenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+.animline{
+    width: 100%;
+    height: .25rem;
+    margin: 0;
+    border-radius: .3rem;
+    background: linear-gradient(90deg,blue,teal,green,yellow,orange,red);
+}
+.tiltbackground{
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    margin-top: 2em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tiltbackground::before{
+    content:'';
+    position: absolute;
+    background: linear-gradient(110deg,rgb(92, 0, 134),rgb(92, 0, 134),rgb(43, 1, 63),rgb(22, 0, 34));
+    height: 100%;
+    width: 120%;
+    transform: rotate(2deg);
+}
+footer{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.footer{
+    width: 80%;
+    border-radius: .5rem .5rem 0 0;
+    padding: .5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footrow{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: .4rem .2rem;
+}
+.container{
+    padding: 0;
 }
