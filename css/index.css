@@ -377,7 +377,7 @@ nav{
 .tiltbackground::before{
     content:'';
     position: absolute;
-    background: linear-gradient(110deg,rgb(92, 0, 134),rgb(92, 0, 134),rgb(43, 1, 63),rgb(22, 0, 34));
+    background: linear-gradient(110deg,rgb(98, 2, 253),rgb(92, 0, 134),rgb(76, 3, 110),rgb(22, 0, 34));
     height: 100%;
     width: 120%;
     transform: rotate(2deg);
