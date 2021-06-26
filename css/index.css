@@ -335,18 +335,17 @@ nav{
     width: 22.8%;
     margin: .5rem;
     border-radius: .3rem;
-    box-shadow: 0 .1rem .4rem -.1rem rgb(43, 0, 112);
+    box-shadow: 0 .1rem .4rem -.2rem rgb(43, 0, 112);
     position: relative;
     transition: .3s ease-in-out;
 
 }
 .tempcard:hover{
-    transform: scale(102%);
     box-shadow: 0 .1rem .4rem 0rem rgb(61, 61, 61);
     transition: .3s ease-in-out;
 }
 .tempimg{
-    background-color: #e7e7e7;
+    background-color: #f1f1f1;
     width: 100%;
     height: 13vw;
     border-radius: .3rem .3rem 0 0;
@@ -366,21 +365,23 @@ nav{
     font-size: .8rem;
 }
 .tempcheck{
+    height: 1.7rem;
     display: flex;
     align-items: center;
     font-weight: lighter;
     cursor: pointer;
     color: #3d3d3d;
     border-radius: .2rem;
-    padding: .2rem;
     margin: .1rem .1rem;
+    padding: 0 .5rem 0 .3rem;
     transition: .3s ease-in-out;
     background-color: #cfcfcf;
 }
 .tempcheck:hover{
-    padding: .3rem .9rem;
     color: black;
     transition: .3s ease-in-out;
+    box-shadow: 0 .1rem .4rem -.1rem black;
+    transform: translateY(-2px);
 }
 .tempcheck:first-child{
     position: relative;
@@ -388,8 +389,8 @@ nav{
     color: white;
 }
 .carticon{
-    height: 1.6rem;
-    margin-right: .3rem;
+    height: 1.2rem;
+    margin:.3rem .3rem .3rem 0;
 }
 .pagecenter{
     display: flex;
@@ -512,7 +513,7 @@ footer{
 }
 .price{
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: normal;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .popupwindow{
