@@ -317,9 +317,12 @@ nav{
 }
 .tempcard{
     width: 24%;
-    margin: .2rem;
+    margin: .4rem .3rem;
+    border-radius: .2rem;
+    box-shadow: 0 .1rem .4rem -.1rem rgb(115, 115, 194);
 
 }
+
 .tempimg{
     width: 100%;
     height: 13vw;
@@ -327,6 +330,7 @@ nav{
 }
 .tempobject{
     width: 100%;
+    padding:.3rem;
 }
 .tempholder{
     width: 100%;
@@ -404,7 +408,6 @@ footer{
 }
 .little{
     width: 100%;
-    padding: 0 .3rem;
     color: var(--off-white-blue);
     display: flex;
     align-items: center;
