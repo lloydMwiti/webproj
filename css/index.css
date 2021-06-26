@@ -317,14 +317,18 @@ nav{
     flex-wrap: wrap;
 }
 .tempcard{
+    background-color: white;
     width: 23%;
     margin: .4rem;
     border-radius: .3rem;
     box-shadow: 0 .1rem .4rem -.1rem rgb(19, 1, 83);
     position: relative;
+    transition: .3s ease-in-out;
+
 }
 .tempcard:hover{
-    
+    transform: scale(104%);
+    transition: .3s ease-in-out;
 }
 .tempimg{
     background-color: #e7e7e7;
@@ -347,10 +351,18 @@ nav{
     font-size: .8rem;
 }
 .tempcheck{
+    cursor: pointer;
+    color: #3d3d3d;
     padding: .3rem .7rem;
     border-radius: .2rem;
     margin: .1rem .1rem;
-    box-shadow: 0 0 .3rem 0 grey;
+    transition: .3s ease-in-out;
+    background-color: #cfcfcf;
+}
+.tempcheck:hover{
+    padding: .3rem .9rem;
+    color: black;
+    transition: .3s ease-in-out;
 }
 .tempcheck:last-child{
     background-color: var(--off-white-blue);
