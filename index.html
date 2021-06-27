@@ -368,18 +368,37 @@
             </footer>
         </div>
     </div>
-    <script src="js/index.js"></script>
-    <div class="popup">
+    <div class="popup" id="popup">
         <div class="popupwindow">
+            <button class="popupdismiss" onclick="dismiss()">X</button>
             <img src="images/d53c851e276af84076bfec423fa12524.jpg" alt="" class="popupimg">
             <div class="popupcontent">
-                <h2 class="pctitle">category</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum minima, esse at quia ipsum suscipit harum deleniti illum maiores velit numquam sunt,
-                     iure possimus dicta provident repudiandae illo eaque eius.</p>
+                <h2 class="pctitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, explicabo?</h2>
+                <ul class="pclist">
+                    <li><p class="lstitle">description:</p> item description list</li>
+                    <li><p class="lstitle">description:</p> item description list</li>
+                    <li><p class="lstitle">description:</p> item description list</li>
+                </ul>
+                <div class="little ">
+                    <div class="h">
+                    <img src="images/baseline_grade_black_24dp.png" class="star" alt="">
+                    <img src="images/baseline_grade_black_24dp.png" class="star" alt="">
+                    <img src="images/baseline_grade_black_24dp.png" class="star" alt="">
+                    <img src="images/baseline_grade_black_24dp.png" class="star" alt="">
+                    <img src="images/star_outline_black_24dp.svg" class="star" alt="">
+                    </div>
+                    <div class="h tempraters">4237 reviews</div>
+                </div>
+                <div class="buttonrow">
+                    
+                    <button class="tempcheck" onclick="itempopup()"><img src="images/baseline_check_circle_outline_black_24dp.png" alt="" class="carticon">buy now</button>
+                    <button class="tempcheck"><img src="images/shopping_cart_black_24dp.svg" alt="" class="carticon">cart</button>
                 
+                </div>
             </div>
         </div>
-
     </div>
+
+    <script src="js/index.js"></script>
 </body>
 </html>

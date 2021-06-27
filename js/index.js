@@ -1,6 +1,9 @@
 buyNow=document.getElementById("buynow");
-popupWindow=document.getElementById("popupwindow");
+popupWindow=document.getElementById("popup");
 
 function itempopup(){
-    alert("devicive");
+    popupWindow.classList.add("popupnone");
+}
+function dismiss(){
+    popupWindow.classList.remove("popupnone");
 }
